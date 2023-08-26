@@ -1,0 +1,38 @@
+---
+title: "Lab 2"
+author: "Ameer Ghazal"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Tasks
+
+## Task 1 
+
+Get working directory.
+```{r}
+getwd()
+```
+
+
+## Task 2
+
+Read the data in from the csv file.
+```{r}
+data <- read.csv("EPAGAS-CSV.csv")
+
+# First six lines
+head(data)
+```
+
+
+## Task 3
+
+## Task 4
